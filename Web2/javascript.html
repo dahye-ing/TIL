@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <title>봉식나이 - js</title>
+  <meta charset="utf-8">
+  <style>
+    .bong{
+      font-weight: bold;
+      color:blue;
+    }
+    #sik{
+      color:green;
+    }
+    span{
+      color:pink
+    }
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="colors.js"></script>
+</head>
+
+<body>
+<h1><a href="index.html">Home</a></h1>
+<ul>
+  <li><a href="html.html">HTML</a></li>
+  <li><a href="css.html">CSS</a></li>
+  <li><a href="javascript.html">JavaScript</a></li>
+</ul>
+
+<h2 style="background-color:coral;color:powderblue">javascript</h2>
+
+<p>
+  <input id="mode" type="button" value="night" onclick="
+    nightMode(this);
+    ">
+</p>
+<p>
+<input type="button" value="봉식" onclick="alert('애옹')">
+<!--class는 그룹핑-->
+<span class="bong">봉식이</span>는 이제 3살~
+<!--id는 식별. 중복X. class보다 우선-->
+<div id="sik">20살 될 때 까지 나랑 같이 살아줘</div>
+<span>야옹</span>
+</p>
+
+</body>
+</html>
